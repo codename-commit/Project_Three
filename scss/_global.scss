@@ -1,0 +1,180 @@
+// Global styling for this template
+body {
+  overflow-x: hidden;
+  @include body-font;
+}
+
+p {
+  line-height: 1.75;
+}
+
+a {
+  color: $primary;
+  &:hover {
+    color: darken($primary, 10%);
+  }
+}
+
+.text-primary {
+  color: $primary !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+  @include heading-font;
+}
+
+section {
+  padding: 100px 0;
+  h2.section-heading {
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 15px;
+  }
+  h3.section-subheading {
+    font-size: 16px;
+    font-weight: 400;
+    font-style: italic;
+    margin-bottom: 75px;
+    text-transform: none;
+    @include serif-font;
+  }
+}
+@media(min-width:768px) {
+  section {
+    padding: 150px 0;
+  }
+}
+
+.about_social_icons {
+  margin-bottom: 25px;
+}
+
+// Button Styles
+.btn {
+  @include heading-font;
+  font-weight: 700;
+  color: #ffffff !important;
+}
+
+.btn-xl {
+  font-size: 18px;
+  padding: 20px 40px;
+}
+
+.btn-primary {
+  background-color: $primary;
+  border-color: $primary;
+  &:active,
+  &:focus,
+  &:hover {
+    background-color: darken($primary, 7.5%) !important;
+    border-color: darken($primary, 7.5%) !important;
+    color: white;
+  }
+  &:active,
+  &:focus {
+    box-shadow: 0 0 0 0.2rem rgba(254, 209, 55,.5) !important;
+  }
+}
+.btn.btn-custom {
+  background: $black;
+  border: 1px solid #212121;
+  color: #FFFFFF;
+  border-radius: 3px;
+  font-family: Open Sans;
+  font-weight: 600;
+  line-height: 1;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  padding: 17px 0.75rem;
+  height: 50px;
+  width: 100%;
+  max-width: 200px;
+}
+
+// Highlight color customization
+::-moz-selection {
+  background: $primary;
+  text-shadow: none;
+}
+
+::selection {
+  background: $primary;
+  text-shadow: none;
+}
+
+img::selection {
+  background: transparent;
+}
+
+img::-moz-selection {
+  background: transparent;
+}
+
+
+// Others
+.pb-2, .py-2 {
+  padding-bottom: .5rem!important;
+}
+
+.list-unstyled {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+
+ul, menu, dir {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+
+.services_item__title {
+  font-weight: 500;
+  line-height: normal;
+  font-size: 24px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 14px;
+}
+
+.services_item__text {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 27px;
+  font-size: 16px;
+  text-align: center;
+  color: #5F5F5F;
+  margin-bottom: 40px;
+  padding: 0px 20px;
+}
+
+.services_item__icon svg {
+  margin: auto;
+}
+
+svg {
+  overflow: hidden;
+  vertical-align: middle;
+}
