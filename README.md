@@ -1,12 +1,12 @@
-# [Personal Web](https://codename-commit.github.io/##/)
+# [Personal Profile](https://codename-commit.github.io/##/)
 
-[Personal Web](http://) On this project, i just wanted to design a basic personal web page to use as a portfolio.
+[Personal Profile](http://) On this project, i just wanted to design a basic personal web page to use as a portfolio.
 
 ## Preview
 
 [![elite Preview](https://i.ibb.co/ZxBHxtt/preview2.png)](https://i.ibb.co/ZxBHxtt/preview2.png)
 
-**[View Live Preview](https://codename-commit.github.io/##/)**
+**[View Live Preview](https://codename-commit.github.io/Project_Three/)**
 
 ## Status
 
