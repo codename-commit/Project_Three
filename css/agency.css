@@ -108,9 +108,18 @@ section h3.section-subheading {
   max-width: 200px;
 }
 
+::-moz-selection {
+  background: #f8f9fa;
+  text-shadow: none;
+}
+
 ::selection {
   background: #f8f9fa;
   text-shadow: none;
+}
+
+img::-moz-selection {
+  background: transparent;
 }
 
 img::selection {
