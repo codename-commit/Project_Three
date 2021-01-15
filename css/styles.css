@@ -125,7 +125,7 @@ h1 {
 .underline {
   border-bottom: solid 2px #474544;
   margin: -0.512em auto;
-  width: 80px;
+  width: 160px;
 }
 
 .icon_wrapper {
@@ -135,7 +135,7 @@ h1 {
 
 .icon {
   display: block;
-  fill: #474544;
+  fill: #f00;/*#474544*/
   height: 50px;
   margin: 0 auto;
   width: 50px;
@@ -172,7 +172,9 @@ input[type='text'], [type='email'], select, textarea {
 
 input[type='text']:focus, [type='email']:focus, textarea:focus {
 	outline: none;
-	padding: 0 0 0.875em 0;
+  padding: 0 0 0.875em 0;
+  border-bottom: solid 2px #f00;
+  
 }
 
 .message {
@@ -248,7 +250,7 @@ textarea {
 }
 
 #form_button:hover {
-  background: #474544 !important;
+  background: #f00 !important;
   color: #F2F3EB !important;
 }
 
